@@ -6,7 +6,16 @@
   "background": {
     "service_worker": "./background.js"
   },
-  "permissions": [],
+  "permissions": [
+    "tabs",
+    "storage",
+    "contextMenus",
+    "webNavigation",
+    "webRequest",
+    "notifications",
+    "identity",
+    "activeTab"
+  ],
   "author": "jsip",
   "short_name": "L101D",
   "action": {
